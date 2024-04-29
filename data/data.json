@@ -1,0 +1,18 @@
+[{
+    "email" : "hola@hola.com",
+    "password" : "1234",
+    "name" : "Pedro",
+    "lastName" : "Picapiedra",
+    "age" : 25,
+    "favouritesMovies" : ["El aro", "Titanic", "La era de hielo"],
+    "id" : "23415"
+},
+{
+    "email" : "chao@chao.com",
+    "password" : "12345",
+    "name" : "Juan",
+    "lastName" : "Mostaza",
+    "age" : 33,
+    "favouritesMovies" : ["Avengers", "Spiderman", "Batman vs Superman"],
+    "id" : "234231"
+}]

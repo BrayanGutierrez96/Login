@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    padding: 20px;
+    text-align: center;
+    color: #2e2e2ebb;
+    background-color: rgba(214, 208, 208, 0.63);
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(214, 208, 208, 0.63);
+    height: 90vh;
+}
+.form{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.form__input{
+    border: 0.5px solid #4e4c4c86;
+    background-color:#f5f0f0 ;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+.btns-container {
+    margin-top: 20px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    justify-items: center;
+}
+.btns-container__btns{
+    cursor: pointer;
+    width: 100px;
+    background-color: white;
+    border: 1px solid rgb(30, 58, 53);
+    border-radius: 10%;
+    color: rgba(30, 58, 53);
+}
+.btns-container__btns:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.form__input:focus{
+    border: 2px solid #991d1d86;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
